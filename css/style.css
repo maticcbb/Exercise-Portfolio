@@ -150,9 +150,13 @@
     .brand-logos{
         transform: scale(0.7);
     }
+    
     .git-icon{
         margin-right: 10px;
         font-size: 20px;
-        
+    }
+    
+     .title-hero {
+        font-size: 45px;
     }
 }
