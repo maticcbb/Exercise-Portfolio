@@ -140,8 +140,13 @@
      .card-title{
         font-size:30px;
     }
+    
     .brand-logos{
         transform:scale(1);
+    }
+    
+    .title-hero {
+        font-size: 45px;
     }
     
 }
@@ -156,7 +161,4 @@
         font-size: 20px;
     }
     
-     .title-hero {
-        font-size: 45px;
-    }
 }
