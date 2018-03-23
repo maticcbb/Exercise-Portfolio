@@ -1,0 +1,147 @@
+.hero-img{
+    background-image: url(../img/rsz_back-main-big.jpg);
+    width: 100%;
+    background-position: center;
+    height: 800px;
+    
+}
+
+.font-poppins{
+     font-family: 'Poppins', sans-serif;
+}
+
+.main-content{
+    height: 700px;
+}
+
+.header{
+    height: 200px;
+}
+
+.logo{
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-proj{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-hero{
+    color: #fff;
+    height: 350px;
+}
+
+.title-hero{
+    font-size: 60px;
+    margin-bottom:20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.text-hero{
+    font-size: 25px;
+    margin:20px 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-proj{
+    margin: 50px 0px;
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.brand-logos{
+    width:200px;
+}
+.empty{
+    height: 155px;
+}
+.my-proj{
+    font-size: 50px;
+}
+
+.git-icon{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width:1000px){
+    .hero-img{
+    background-image: url(../img/small_1rsz_back-main-big.jpg);
+    width: 100%;
+    background-position: center;
+    height: 600px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .card-title{
+        font-size:25px;
+    }
+    .brand-logos{
+        transform:scale(0.8);
+    }
+    .empty{
+        margin-top: 30px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+     .card-title{
+        font-size:30px;
+    }
+    .brand-logos{
+        transform:scale(1);
+    }
+    
+}
